@@ -1,0 +1,14 @@
+$color:red
+ul {
+	font-size: 18px;
+	color: $color;
+	}
+	
+ol {
+	font-size: 14px;
+	color: $color;
+	}
+
+//this SCSS files need to rempile to convert into .css file because html unterstad CSS file only.
+//to compile type = sass variables.scss variables.css
+//put watch for changes: sass --watch variables.scss:variables.css
